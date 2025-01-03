@@ -1,0 +1,17 @@
+{
+  "name": "discord_bot",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/luxon": "^3.4.2",
+    "discord.js": "^14.17.2",
+    "dotenv": "^16.4.7",
+    "luxon": "^3.5.0"
+  }
+}
